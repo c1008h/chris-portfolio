@@ -1,7 +1,7 @@
 import React from "react";
 import {  FaGithubAlt } from 'react-icons/fa'
 import { ghprojects } from "../../data"
-import '../styles/index.css'
+import './styles/index.css'
 
 export default function Projects() {
   // const [isModalOpen, setIsModalOpen] = useState(false);
