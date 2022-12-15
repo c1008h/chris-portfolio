@@ -28,7 +28,7 @@ export default function Projects() {
                     key={project.image}
                     alt="gallery"
                     className="col-12 m-4"
-                    src={project.image}
+                    src="{project.image}"
                     style={{height:'300px', opacity:'.85'}}
                   /></a>
               </div> 
