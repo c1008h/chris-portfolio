@@ -1,0 +1,15 @@
+#contact {
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 5% 0;
+}
+
+@media (max-width: 770) {
+    .contact {
+        height: calc(100vh - 100px);
+    }
+}
+
+p {
+    font-size: 12px;
+}

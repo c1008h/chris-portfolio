@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+#about {
+    width: auto;
+}
+
+/* @media (min-width: 400px) {
+    #about {
+        height: calc(100vh - 100px);
+        overflow-x: hidden;   
+
+    }
+} */
+
