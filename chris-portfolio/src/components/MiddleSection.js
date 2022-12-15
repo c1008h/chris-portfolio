@@ -28,7 +28,7 @@ export default class MiddleSection extends Component {
                         href='#home'>Chris Hong
                     </a>
                     <a
-                    href="/about"
+                    href="#about"
                     // className={`nav-link`}
                     className={`nav-link ${window.location.pathname === '/about' ? 'active' : ''}`}
                     >About</a>
