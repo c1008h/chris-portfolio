@@ -4,7 +4,7 @@ export const ghprojects = [
     subtitle: "Handlebars & REST",
     description:
       "An app that is used to find your dog a suitable friend.",
-    image: "./images/doghub.png",
+    image: "../images/doghub.png",
     github:'https://github.com/davidpascual2/Project-2',
     link: "https://ancient-scrubland-48723.herokuapp.com/",
   },
@@ -13,7 +13,7 @@ export const ghprojects = [
     subtitle: "JavaScript, HTML, and CSS",
     description:
       "This application is a tool for taking the ingredients a user inputs and returning a recipe that utilizes those ingredients. In addition to this a user can save their favorite recipes to local storage to be accessed later.",
-    image: "/images/forkthefood.png",
+    image: "./images/forkthefood.png",
     github:'https://github.com/EyesackEl/fork-the-food',
     link: "https://eyesackel.github.io/fork-the-food/",
   },
