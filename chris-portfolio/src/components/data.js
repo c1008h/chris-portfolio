@@ -4,7 +4,7 @@ export const ghprojects = [
     subtitle: "Handlebars & REST",
     description:
       "An app that is used to find your dog a suitable friend.",
-    image: "/images/doghub.png",
+    image: "./images/doghub.png",
     github:'https://github.com/davidpascual2/Project-2',
     link: "https://ancient-scrubland-48723.herokuapp.com/",
   },
