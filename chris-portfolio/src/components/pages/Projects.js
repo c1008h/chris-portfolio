@@ -46,16 +46,15 @@ export default function Projects() {
                     </button>
 
                     {ghprojects.map((project) => (
-                    <Modal show={show} onHide={handleClose}>                      
-                      <Modal.Header closeButton>
-                        <Modal.Title key={project.title}>{project.title}</Modal.Title>
-                      </Modal.Header>
-                      <Modal.Body key={project.subtitle}>{project.subtitle}</Modal.Body>
-                      <Modal.Footer>
-                      </Modal.Footer>
-                    </Modal>
+                      <Modal show={show} onHide={handleClose}>                      
+                        <Modal.Header closeButton>
+                          <Modal.Title key={project.title}>{project.title}</Modal.Title>
+                        </Modal.Header>
+                        <Modal.Body key={project.subtitle}>{project.subtitle}</Modal.Body>
+                        <Modal.Footer>
+                        </Modal.Footer>
+                      </Modal>
                    ))}
-
                   </div>
               </div>
             </div>
