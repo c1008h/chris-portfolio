@@ -1,14 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 import {  FaGithubAlt } from 'react-icons/fa'
+import { Modal } from 'react-bootstrap';
 import { ghprojects } from "../../data"
-import './styles/index.css'
+import '../styles/index.css'
 
 export default function Projects() {
-  // const [isModalOpen, setIsModalOpen] = useState(false);
-  const handleClick = (event) => {
-    console.log(event.target.value);
-    
-  }
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   
   return (
       <section id="projects" className="text-gray-400 bg-gray-900 body-font">
@@ -21,14 +20,14 @@ export default function Projects() {
           {ghprojects.map((project) => (
             <div className="col-lg-6" style={{marginBottom:'5%', marginTop:'5%'}}>
               <h2 className="mb-3 col-12" key={project.title}>
-                        {project.title}
+                {project.title}
               </h2>
               <div className="flex relative" id='portfolioSquares'>
                   <a key={project.link} href={project.link} rel='noeferrer' target='__blank'><img 
                     key={project.image}
                     alt="gallery"
                     className="col-12 m-4"
-                    src="{project.image}"
+                    src={project.image}
                     style={{height:'300px', opacity:'.85'}}
                   /></a>
               </div> 
@@ -42,8 +41,21 @@ export default function Projects() {
                     </a>
                     <button type='button' 
                     className='btn btn-dark col' id='description'
-                    onClick={handleClick} key={project.subtitle} value={project.subtitle}
-                    >Description</button>
+                    variant="primary" onClick={handleShow} key={project.subtitle} value={project.subtitle}
+                    >Description 
+                    </button>
+
+                    {ghprojects.map((project) => (
+                    <Modal show={show} onHide={handleClose}>                      
+                      <Modal.Header closeButton>
+                        <Modal.Title key={project.title}>{project.title}</Modal.Title>
+                      </Modal.Header>
+                      <Modal.Body key={project.subtitle}>{project.subtitle}</Modal.Body>
+                      <Modal.Footer>
+                      </Modal.Footer>
+                    </Modal>
+                   ))}
+
                   </div>
               </div>
             </div>
