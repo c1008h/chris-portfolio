@@ -18,7 +18,7 @@ export default class Header extends Component {
           <h1 className='responsive-headerline' id='name'>Chris Hong</h1>
     
           <Link activeClass='active' to='about' spy={true}
-          smooth={true} offset={-70} duration={500}>
+          smooth={true} offset={0} duration={500}>
             <FaArrowDown id='downBtn'/>
           </Link>
         </div>
