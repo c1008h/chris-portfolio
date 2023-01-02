@@ -11,7 +11,7 @@ class Navbar extends Component {
                 justifyContent:'space-around', 
                 position:'fixed', 
                 top:'0',
-                zIndex:'auto'
+                zIndex:'1000'
                 }}
             >
                 <Link 
