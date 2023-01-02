@@ -1,11 +1,10 @@
 import React, { Component} from 'react';
 import {FaArrowDown} from 'react-icons/fa'
+import { Link } from 'react-scroll';
 import './styles/header.css'
 
 export default class Header extends Component {
   render(){
-    // const downBtn = document.querySelector('#downBtn')
-    // downBtn.onClick()
     return (
       
       <header id='homepage' className='head col-12'>
@@ -18,9 +17,10 @@ export default class Header extends Component {
           </span>
           <h1 className='responsive-headerline' id='name'>Chris Hong</h1>
     
-          <FaArrowDown id='downBtn'/>
-          <p style={{position: 'absolute', textAlign:'center', width:'auto', top:'90%'}}>Learn More</p>
-
+          <Link activeClass='active' to='about' spy={true}
+          smooth={true} offset={-70} duration={500}>
+            <FaArrowDown id='downBtn'/>
+          </Link>
         </div>
       </header>
     );
