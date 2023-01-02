@@ -27,22 +27,20 @@ html {
 }
 
 section {
-  /* margin-bottom: 15%;
-  margin-top: 15%; */
   padding: 10% 0;
 }
-
+/* 
 #portfolioSquares {
   position: relative;
   opacity:.80;
+} */
+
+.navbar > .active {
+  font-weight: bold;
 }
 
 #showAfter {
   display:none;
-}
-
-#portfolioSquares:hover + #showAfter {
-  display:block;
 }
 
 @media only screen and (max-width: 650px) {
