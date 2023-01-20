@@ -44,9 +44,10 @@ export const ghprojects = [
         title: "Note Taker",
         subtitle: "JavaScript, Express, and Node.js",
         description:
-        "An application that allows users to add notes, edit notes, and delete notes",
+        "This app allows users to easily create, edit, and delete notes. Users can create new notes by entering a title and the note's content. They can also edit existing notes by clicking on the note to open it, making changes, and then saving it. Users can also delete notes by clicking on the note and then clicking the delete button. The app allows users to keep track of their notes and easily organize them for their convenience.",
         image: "./images/notetaker.png",
         github:'https://github.com/c1008h/Note-Taker',
+        demo: './demo/notetaker.png'
     },
     {
         id: 6,
