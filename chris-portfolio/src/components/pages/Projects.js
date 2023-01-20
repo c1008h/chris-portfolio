@@ -67,7 +67,7 @@ export default function Projects() {
                       <p className="col-3" style={{}}>{item.subtitle}</p>
                     </Modal.Header>
                     <Modal.Body>
-                      <img src={item.demo} alt='short demo of app'/>
+                      <img src={item.demo} style={{width:'85%'}} alt='short demo of app'/>
                       {item.description}
                       </Modal.Body>
                     <Modal.Footer>
