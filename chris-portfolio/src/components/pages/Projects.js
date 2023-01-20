@@ -60,7 +60,10 @@ export default function Projects() {
                         <Modal.Title>{item.title}</Modal.Title>
                         <p>{item.subtitle}</p>
                       </Modal.Header>
-                      <Modal.Body>{item.description}</Modal.Body>
+                      <Modal.Body>
+                        {item.demo}
+                        {item.description}
+                        </Modal.Body>
                       <Modal.Footer>
                         <Button variant="secondary" onClick={() => handleClose(item.id)}>
                           Close
