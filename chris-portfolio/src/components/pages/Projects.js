@@ -58,8 +58,9 @@ export default function Projects() {
                     <Modal id={item.id} show={show[item.id]} onHide={() => handleClose(item.id)}>
                       <Modal.Header closeButton>
                         <Modal.Title>{item.title}</Modal.Title>
+                        <p>{item.subtitle}</p>
                       </Modal.Header>
-                      <Modal.Body>{item.subtitle}</Modal.Body>
+                      <Modal.Body>{item.description}</Modal.Body>
                       <Modal.Footer>
                         <Button variant="secondary" onClick={() => handleClose(item.id)}>
                           Close
