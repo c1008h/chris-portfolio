@@ -1,28 +1,11 @@
-import {React, useState} from "react";
+import React from "react";
 import {  FaGithubAlt } from 'react-icons/fa'
 import { ghprojects } from "../../data"
-import '../styles/index.css'
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
+import ProjectModal from "./Modal";
 
-export default function Projects() {
-  const [show, setShow] = useState({});
-
-  const handleClose = (id) => {
-    setShow((prevState) => ({ ...prevState, [id]: false }));
-  };
-
-  const handleShow = (id) => {
-    setShow((prevState) => ({ ...prevState, [id]: true }));
-  };
-
-  return (
-      <section id="projects" className="text-gray-400 bg-gray-900 body-font">
-        <div className="container px-5 py-10 mx-auto text-center lg:px-40 col-12">
-          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4">
-              My Projects
-          </h1>
-
+export default function Card(props) {
+    
+    return (
         <div className="flex flex-wrap m-1 row">
 
           {ghprojects.map((item) => (
@@ -57,11 +40,12 @@ export default function Projects() {
                   </a>
                   
                   <button type='button' className='btn btn-dark col' id='description' 
-                  onClick={() => handleShow(item.id)}>
+                  onClick={() => props.handleShow(item.id)}>
                       Description
                   </button>
 
-                  <Modal id={item.id} show={show[item.id]} onHide={() => handleClose(item.id)}>
+                <ProjectModal />
+                  {/* <Modal id={item.id} show={show[item.id]} onHide={() => handleClose(item.id)}>
                     <Modal.Header closeButton>
                       <Modal.Title className="col-5">{item.title}</Modal.Title>
                       <p className="col-3" style={{}}>{item.subtitle}</p>
@@ -76,7 +60,7 @@ export default function Projects() {
                         Close
                       </Button>
                     </Modal.Footer>
-                  </Modal>
+                  </Modal> */}
                 </div>
               </div>
 
@@ -84,7 +68,5 @@ export default function Projects() {
             </div>
           ))}
         </div>
-      </div>
-    </section>
-  );
+    )
 }

@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
 import {FaArrowDown} from 'react-icons/fa'
 import { Link } from 'react-scroll';
-import './styles/header.css'
+import '../styles/header.css'
 
 export default class Header extends Component {
   render(){
