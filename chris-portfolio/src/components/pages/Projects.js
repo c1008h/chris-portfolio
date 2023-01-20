@@ -26,7 +26,7 @@ export default function Projects() {
         <div className="flex flex-wrap m-1 row">
 
           {ghprojects.map((item) => (
-            <div className="col-lg-4 col-md-6 col-sm-12" style={{marginBottom:'5%', marginTop:'5%'}} key={item.id}>
+            <div className="col-lg-4 col-md-6 col-sm-12 " style={{marginBottom:'5%', marginTop:'5%', border: 'solid grey'}} key={item.id}>
               <h2 className="mb-3 col-12" key={item.title} value={item.title}>
                 {item.title}
               </h2>
