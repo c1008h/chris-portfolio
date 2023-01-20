@@ -34,7 +34,7 @@ export default function Projects() {
               padding: '5%',
               borderRadius:'25px'
               }} key={item.id}>
-              <h2 className="mb-3 col-12" key={item.title} value={item.title}>
+              <h2 className="mb-3 col-12" style={{width:'90%', height:'15%'}} key={item.title} value={item.title}>
                 {item.title}
               </h2>
               <div className="flex relative" id='portfolioSquares'>
