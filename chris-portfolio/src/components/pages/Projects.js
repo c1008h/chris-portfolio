@@ -42,7 +42,7 @@ export default function Projects() {
                     <img 
                       key={item.image}
                       alt="gallery"
-                      className="col-12 m-4"
+                      className="col-10 m-4"
                       src={item.image}
                       style={{height:'250px', opacity:'.85'}}
                     />
