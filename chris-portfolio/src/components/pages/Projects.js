@@ -34,9 +34,9 @@ export default function Projects() {
               padding: '5%',
               borderRadius:'25px'
               }} key={item.id}>
-              <h2 className="mb-3 col-12" style={{whiteSpace:'nowrap'}} key={item.title} value={item.title}>
+              <h3 className="mb-3 col-12" style={{whiteSpace:'nowrap',}} key={item.title} value={item.title}>
                 {item.title}
-              </h2>
+              </h3>
               <div className="flex relative" id='portfolioSquares'>
                   <a key={item.link} href={item.link} rel='noeferrer' target='__blank'>
                     <img 

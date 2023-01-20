@@ -31,7 +31,7 @@ export const ghprojects = [
     },
     {
         id: 4,
-        title: "Ecommerce",
+        title: "E-Commerce",
         subtitle: "Node.Js, MySQL & Express",
         description:
         "This is the server-side component of an online store that utilizes MySQL as the database management system. It handles all the behind-the-scenes functionality of the store, such as managing customer information, processing orders, and updating inventory levels. The app provides a robust and reliable platform for managing the e-commerce operations, allowing store owners to focus on growing their business. The app's use of MySQL ensures that all data is securely stored and can be easily accessed and manipulated to support the smooth functioning of the e-commerce store.",
@@ -71,7 +71,7 @@ export const ghprojects = [
     },
     {
         id: 8,
-        title: "README Generator",
+        title: "README.md",
         subtitle: "Node.Js & NPM",
         description:
         "This app is a command-line tool built using Node.js that helps users create a well-formatted README file for their projects. The app prompts users with a series of questions in the terminal, such as project name, description, and installation instructions. As the users answer the questions, the app generates a corresponding markdown for the README file, saving users time and effort in manually formatting the document. The app makes it easy for developers to quickly and efficiently create professional-looking README files for their projects.",
