@@ -37,7 +37,7 @@ export const ghprojects = [
         "This is the server-side component of an online store that utilizes MySQL as the database management system. It handles all the behind-the-scenes functionality of the store, such as managing customer information, processing orders, and updating inventory levels. The app provides a robust and reliable platform for managing the e-commerce operations, allowing store owners to focus on growing their business. The app's use of MySQL ensures that all data is securely stored and can be easily accessed and manipulated to support the smooth functioning of the e-commerce store.",
         image: "./images/ecombackend.png",
         github:'https://github.com/c1008h/E-Commerce-Backend',
-        demo:'./demo/ecombackend.png'
+        demo:'./demo/ecombackend.gif'
     },
     {
         id: 5,
@@ -47,7 +47,7 @@ export const ghprojects = [
         "This app allows users to easily create, edit, and delete notes. Users can create new notes by entering a title and the note's content. They can also edit existing notes by clicking on the note to open it, making changes, and then saving it. Users can also delete notes by clicking on the note and then clicking the delete button. The app allows users to keep track of their notes and easily organize them for their convenience.",
         image: "./images/notetaker.png",
         github:'https://github.com/c1008h/Note-Taker',
-        demo: './demo/notetaker.png'
+        demo: './demo/notetaker.gif'
     },
     {
         id: 6,
