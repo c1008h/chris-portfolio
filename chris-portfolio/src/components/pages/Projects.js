@@ -26,7 +26,14 @@ export default function Projects() {
         <div className="flex flex-wrap m-1 row">
 
           {ghprojects.map((item) => (
-            <div className="col-lg-4 col-md-6 col-sm-12 " style={{marginBottom:'5%', marginTop:'5%', border: 'solid grey'}} key={item.id}>
+            <div className="col-lg-4 col-md-6 col-sm-12">
+            <div style={{
+              marginBottom:'5%', 
+              marginTop:'5%', 
+              border: 'solid grey', 
+              padding: '5%',
+              borderRadius:'25px'
+              }} key={item.id}>
               <h2 className="mb-3 col-12" key={item.title} value={item.title}>
                 {item.title}
               </h2>
@@ -42,37 +49,37 @@ export default function Projects() {
                   </a>
               </div> 
               
-              <div 
-                className='d-flex flex-row justify-content-center'>
-                  <div className="col-12" style={{display:'flex', textAlign:'center', justifyContent:'center', alignItems:'center'}}> 
-                    <a key={item.github} href={item.github} rel="noreferrer"
-                    target="_blank" className='col-7'>
-                      <FaGithubAlt size={25}/>
-                    </a>
-                    
-                    <button type='button' className='btn btn-dark col' id='description' 
-                    onClick={() => handleShow(item.id)}>
-                        Description
-                    </button>
+              <div className='d-flex flex-row justify-content-center'>
+                <div className="col-12" style={{display:'flex', textAlign:'center', justifyContent:'center', alignItems:'center'}}> 
+                  <a key={item.github} href={item.github} rel="noreferrer"
+                  target="_blank" className='col-7'>
+                    <FaGithubAlt size={25}/>
+                  </a>
+                  
+                  <button type='button' className='btn btn-dark col' id='description' 
+                  onClick={() => handleShow(item.id)}>
+                      Description
+                  </button>
 
-                    <Modal id={item.id} show={show[item.id]} onHide={() => handleClose(item.id)}>
-                      <Modal.Header closeButton>
-                        <Modal.Title>{item.title}</Modal.Title>
-                        <p>{item.subtitle}</p>
-                      </Modal.Header>
-                      <Modal.Body>
-                        <img src={item.demo} alt='short demo of app'/>
-                        {item.description}
-                        </Modal.Body>
-                      <Modal.Footer>
-                        <Button variant="secondary" onClick={() => handleClose(item.id)}>
-                          Close
-                        </Button>
-                      </Modal.Footer>
-                    </Modal>
-
-                  </div>
+                  <Modal id={item.id} show={show[item.id]} onHide={() => handleClose(item.id)}>
+                    <Modal.Header closeButton>
+                      <Modal.Title>{item.title}</Modal.Title>
+                      <p>{item.subtitle}</p>
+                    </Modal.Header>
+                    <Modal.Body>
+                      <img src={item.demo} alt='short demo of app'/>
+                      {item.description}
+                      </Modal.Body>
+                    <Modal.Footer>
+                      <Button variant="secondary" onClick={() => handleClose(item.id)}>
+                        Close
+                      </Button>
+                    </Modal.Footer>
+                  </Modal>
+                </div>
               </div>
+
+            </div>
             </div>
           ))}
         </div>
