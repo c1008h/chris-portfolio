@@ -72,7 +72,7 @@ export const ghprojects = [
         title: "README.md Generator",
         subtitle: "Node.Js & NPM",
         description:
-        "This app utilizes third-party APIs to allow users to input their schedule between the hours of 9am and 5pm. The background color of the schedule will change dynamically to indicate whether a specific time has passed, is currently happening, or is yet to come. This feature allows users to easily keep track of their schedule and stay on top of their tasks throughout the day.",
+        "This app is a command-line tool built using Node.js that helps users create a well-formatted README file for their projects. The app prompts users with a series of questions in the terminal, such as project name, description, and installation instructions. As the users answer the questions, the app generates a corresponding markdown for the README file, saving users time and effort in manually formatting the document. The app makes it easy for developers to quickly and efficiently create professional-looking README files for their projects.",
         image: "./images/readme-generator.png",
         github:'https://github.com/c1008h/Professional-README-Generator',
         link: "",
