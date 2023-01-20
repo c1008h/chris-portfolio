@@ -61,7 +61,7 @@ export default function Projects() {
                         <p>{item.subtitle}</p>
                       </Modal.Header>
                       <Modal.Body>
-                        {item.demo}
+                        <img src={item.demo} alt='short demo of app'/>
                         {item.description}
                         </Modal.Body>
                       <Modal.Footer>
