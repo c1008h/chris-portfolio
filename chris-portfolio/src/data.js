@@ -62,8 +62,9 @@ export const ghprojects = [
         subtitle: "JavaScript, jQuery, CSS, Third Party APIs & Bootstrap",
         description:
         "This app utilizes third-party APIs to allow users to input their schedule between the hours of 9am and 5pm. The background color of the schedule will change dynamically to indicate whether a specific time has passed, is currently happening, or is yet to come. This feature allows users to easily keep track of their schedule and stay on top of their tasks throughout the day.",
-        image: "./images/workday",
+        image: "./images/workday.png",
         github:'https://github.com/c1008h/team-profile-generator',
         link: "https://c1008h.github.io/Day-Planner/"
     },
 ];
+  
