@@ -44,7 +44,7 @@ export default function Projects() {
                       alt="gallery"
                       className="col-12 m-4"
                       src={item.image}
-                      style={{height:'300px', opacity:'.85'}}
+                      style={{height:'250px', opacity:'.85'}}
                     />
                   </a>
               </div> 
@@ -63,8 +63,8 @@ export default function Projects() {
 
                   <Modal id={item.id} show={show[item.id]} onHide={() => handleClose(item.id)}>
                     <Modal.Header closeButton>
-                      <Modal.Title>{item.title}</Modal.Title>
-                      <p>{item.subtitle}</p>
+                      <Modal.Title className="col-5">{item.title}</Modal.Title>
+                      <p className="col-3" style={{}}>{item.subtitle}</p>
                     </Modal.Header>
                     <Modal.Body>
                       <img src={item.demo} alt='short demo of app'/>
