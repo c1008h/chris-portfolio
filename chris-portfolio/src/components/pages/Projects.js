@@ -44,7 +44,7 @@ export default function Projects() {
                       alt="gallery"
                       className="col-10 m-4"
                       src={item.image}
-                      style={{height:'250px', opacity:'.85'}}
+                      style={{height:'70%', width:'85%', opacity:'.85'}}
                     />
                   </a>
               </div> 
