@@ -1,17 +1,21 @@
-import React, {useState} from "react";
+import React from "react";
 import '../styles/index.css'
 import Card from '../components/projects/Card'
+// import {  FaGithubAlt } from 'react-icons/fa'
+// import { ghprojects } from "../data"
+// import Button from 'react-bootstrap/Button';
+// import Modal from 'react-bootstrap/Modal';
 
-export default function Projects() {
-  const [show, setShow] = useState({});
+export default function Projects () {
+  // const [show, setShow] = useState({});
 
-  const handleClose = (id) => {
-    setShow((prevState) => ({ ...prevState, [id]: false }));
-  };
+  // const handleClose = (id) => {
+  //   setShow((prevState) => ({ ...prevState, [id]: false }));
+  // };
 
-  const handleShow = (id) => {
-    setShow((prevState) => ({ ...prevState, [id]: true }));
-  };
+  // const handleShow = (id) => {
+  //   setShow((prevState) => ({ ...prevState, [id]: true }));
+  // };
 
   return (
     <section id="projects" className="text-gray-400 bg-gray-900 body-font">
@@ -19,11 +23,7 @@ export default function Projects() {
         <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4">
             My Projects
         </h1>
-        <Card 
-          value={show}
-          handleClose={handleClose}
-          handleShow={handleShow}
-        />
+        <Card />
       </div>
     </section>
   );
