@@ -60,8 +60,8 @@ export default function Card() {
                     <p className="col-3" style={{}} key={item.subtitle}>{item.subtitle}</p>
                 </Modal.Header>
                 <Modal.Body>
-                  <div>
-                  <img src={item.demo} style={{width:'85%', justifyContent:'center'}} alt='short demo of app'/>
+                  <div style={{textAlign:'center'}}>
+                  <img src={item.demo} style={{width:'85%'}} alt='short demo of app'/>
                     <br/>
                     {item.description}
                   </div>
