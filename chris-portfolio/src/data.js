@@ -21,16 +21,16 @@ export const ghprojects = [
         link: "https://eyesackel.github.io/fork-the-food/",
         demo: './demo/forkthefood.gif'
     },
-    {
-        id: 3,
-        title: "Bricks Repo",
-        subtitle: "Full stack MERN",
-        description:
-        "An app that allows users to be nolstalgic about old lego sets or learn more about new lego sets.",
-        image: "./images/bricksrepo.png",
-        github:'https://github.com/JimMason564/Project3',
-        link: "https://bricks-repo.herokuapp.com/",
-    },
+    // {
+    //     id: 3,
+    //     title: "Bricks Repo",
+    //     subtitle: "Full stack MERN",
+    //     description:
+    //     "An app that allows users to be nolstalgic about old lego sets or learn more about new lego sets.",
+    //     image: "./images/bricksrepo.png",
+    //     github:'https://github.com/JimMason564/Project3',
+    //     link: "https://bricks-repo.herokuapp.com/",
+    // },
     {
         id: 4,
         title: "E-Commerce",
