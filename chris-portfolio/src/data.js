@@ -18,6 +18,7 @@ export const ghprojects = [
         image: "./images/forkthefood.png",
         github:'https://github.com/EyesackEl/fork-the-food',
         link: "https://eyesackel.github.io/fork-the-food/",
+        demo: './demo/forkthefood.gif'
     },
     {
         id: 3,
