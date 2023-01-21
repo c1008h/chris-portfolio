@@ -14,7 +14,7 @@ export default function Card() {
   const handleShow = (id) => {
     setShow((prevState) => ({ ...prevState, [id]: true }));
   };
-  
+
   return (
     <div className="flex flex-wrap m-1 row">
 
@@ -25,7 +25,7 @@ export default function Card() {
           marginTop:'5%', 
           border: 'solid grey', 
           padding: '5%',
-          borderRadius:'25px'
+          borderRadius:'25px',
           }} key={item.id}>
           <h3 className="mb-3 col-12" style={{whiteSpace:'nowrap',}} key={item.title}>
             {item.title}
@@ -60,9 +60,11 @@ export default function Card() {
                     <p className="col-3" style={{}} key={item.subtitle}>{item.subtitle}</p>
                 </Modal.Header>
                 <Modal.Body>
-                    <img src={item.demo} style={{width:'85%', justifyContent:'center'}} alt='short demo of app'/>
+                  <div>
+                  <img src={item.demo} style={{width:'85%', justifyContent:'center'}} alt='short demo of app'/>
                     <br/>
                     {item.description}
+                  </div>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={() => handleClose(item.id)}>
