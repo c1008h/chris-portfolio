@@ -2,12 +2,13 @@ export const ghprojects = [
     {
         id: 1,
         title: "DogHub",
-        subtitle: "Handlebars & REST",
+        subtitle: "Express, Handlebars, MySQL, and MVC model",
         description:
-        "An app that is used to find your dog a suitable friend.",
+        "The app allows users to create a profile for their dog, including information about their breed and age. Using this information, the users will be able to swipe and match with other dogs based on their description. Users are able to message their matches to set up playdates.",
         image: "./images/doghub.png",
         github:'https://github.com/davidpascual2/Project-2',
         link: "https://ancient-scrubland-48723.herokuapp.com/",
+        demo:'./demo/doghub.gif'
     },
     {
         id: 2,
