@@ -1,57 +1,15 @@
 .head {
     /* background: url('/public/images/placeholderphoto.jpeg'); */
-    /* background: url('/public/images/Chris_Likedin_5star.png');
+    /* background: url('/public/images/tofu.jpg');
     background-position: center;
     background-size: cover;  */
+    background: url('/public/images/tofu.JPG');
     position: relative; 
-    background-color: #FFD55E;
+    background-color: #7395AE;
     height:1080px;
     width: auto;
     text-align: center;
     
-}
-
-.lefteye {
-    height: 300px;
-    width: 300px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    top: 20%;
-    right: 57%;
-}
-.leftpupil {
-    height: 150px;
-    width: 150px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    top: 25%;
-    right: 25%;
-}
-
-.righteye {
-    height: 300px;
-    width: 300px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    top: 20%;
-    right: 17%;
-}
-
-.rightpupil {
-    height: 150px;
-    width: 150px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    top: 25%;
-    right: 25%;
 }
 
 .socialmedia {

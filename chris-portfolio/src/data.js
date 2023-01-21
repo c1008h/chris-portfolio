@@ -51,15 +51,15 @@ export const ghprojects = [
         github:'https://github.com/c1008h/Note-Taker',
         demo: './demo/notetaker.gif'
     },
-    {
-        id: 6,
-        title: "Employee Profile",
-        subtitle: "JavaScript, Node.js & Express",
-        description:
-        "An application to keep track of employees within a company by answering questions in the terminal and render it onto the web",
-        image: "./images/teamprofilegenerator.png",
-        github:'https://github.com/c1008h/team-profile-generator',
-    },
+    // {
+    //     id: 6,
+    //     title: "Employee Profile",
+    //     subtitle: "JavaScript, Node.js & Express",
+    //     description:
+    //     "An application to keep track of employees within a company by answering questions in the terminal and render it onto the web",
+    //     image: "./images/teamprofilegenerator.png",
+    //     github:'https://github.com/c1008h/team-profile-generator',
+    // },
     {
         id: 7,
         title: "Day Planner",
