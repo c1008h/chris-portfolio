@@ -26,6 +26,7 @@ export default function Card() {
           border: 'solid grey', 
           padding: '5%',
           borderRadius:'25px',
+          filter:"drop-shadow(0px 20px 30px black"
           }} key={item.id}>
           <h3 className="mb-3 col-12" style={{whiteSpace:'nowrap',}} key={item.title}>
             {item.title}

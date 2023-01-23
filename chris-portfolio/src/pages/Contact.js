@@ -13,7 +13,9 @@ export default function Contact() {
     <div className='col-12' style={{display:'flex', textAlign:'center', justifyContent:'center', alignItems:'center'}}>
       <div className='m-4'>
         <a href='mailto:hongchris97@gmail.com?subject=Mail from Portfolio' target='__blank'>  
-          <FaEnvelope size={30} />
+          <FaEnvelope size={30} 
+            // style={{color: 'white'}} 
+          />
         </a>
         <p className="row">   
           hongchris97@gmail.com           

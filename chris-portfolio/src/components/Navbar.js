@@ -33,12 +33,13 @@ class Navbar extends Component {
                 smooth={true} offset={0} duration={500}>
                     Projects
                 </Link>
-                <Link 
+                <a 
                 className='nav-link'
-                activeClass='active' to='resume' spy={true}
-                smooth={true} offset={0} duration={500}>
+                activeclass='active' 
+                href='https://drive.google.com/file/d/131hVn5qI4Hll1IutF_Z6SGg1E6NakaKi/view?usp=sharing' 
+                target="_blank" rel='noreferrer'>
                     Resume
-                </Link>
+                </a>
                 <Link 
                 className='nav-link'
                 activeClass='active' to='contact' spy={true}

@@ -1,15 +1,8 @@
-.head {
-    /* background: url('/public/images/placeholderphoto.jpeg'); */
-    /* background: url('/public/images/tofu.jpg');
-    background-position: center;
-    background-size: cover;  */
-    background: url('/public/images/tofu.JPG');
-    position: relative; 
-    background-color: #7395AE;
-    height:1080px;
-    width: auto;
-    text-align: center;
-    
+#home {
+    background: url('/public/images/tofu.JPG') center no-repeat;
+    background-size: cover !important;
+    width: 100% !important;
+    height: 100vh !important; /* 100% of the viewport height */
 }
 
 .socialmedia {
@@ -25,11 +18,11 @@
 
 #name {
     position: absolute;
-    top: 65%;
+    top: 30%;
     width: 100%;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 400%;
+    font-size: 300%;
 }
 
 #downBtn {
