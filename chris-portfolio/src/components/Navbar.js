@@ -36,7 +36,7 @@ class Navbar extends Component {
                 <a 
                 className='nav-link'
                 activeclass='active' 
-                href='https://drive.google.com/file/d/131hVn5qI4Hll1IutF_Z6SGg1E6NakaKi/view?usp=sharing' 
+                href='https://drive.google.com/file/d/1mmxENAWmGR-kCLRhwntKdHgjEpzqf0jN/view?usp=sharing' 
                 target="_blank" rel='noreferrer'>
                     Resume
                 </a>
