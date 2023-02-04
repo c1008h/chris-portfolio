@@ -72,7 +72,7 @@ export default function Card() {
                         Close
                     </Button>
                 </Modal.Footer>
-            </Modal>
+              </Modal>
             </div>
           </div>
         </div>

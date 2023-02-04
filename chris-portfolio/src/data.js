@@ -21,16 +21,17 @@ export const ghprojects = [
         link: "https://eyesackel.github.io/fork-the-food/",
         demo: './demo/forkthefood.gif'
     },
-    // {
-    //     id: 3,
-    //     title: "Bricks Repo",
-    //     subtitle: "Full stack MERN",
-    //     description:
-    //     "An app that allows users to be nolstalgic about old lego sets or learn more about new lego sets.",
-    //     image: "./images/bricksrepo.png",
-    //     github:'https://github.com/JimMason564/Project3',
-    //     link: "https://bricks-repo.herokuapp.com/",
-    // },
+    {
+        id: 3,
+        title: "Food Genie",
+        subtitle: "MongoDB, Express, React, Node.Js, Graphql",
+        description:
+        "An app that allows users to be nolstalgic about old lego sets or learn more about new lego sets.",
+        image: "./images/foodgenie.png",
+        github:'https://github.com/c1008h/FoodGenie',
+        link: "https://foodgenie-ch.herokuapp.com/",
+        demo:'./demo/FoodGenie.gif'
+    },
     {
         id: 4,
         title: "E-Commerce",
@@ -43,13 +44,14 @@ export const ghprojects = [
     },
     {
         id: 5,
-        title: "Note Taker",
-        subtitle: "JavaScript, Express, and Node.Js",
+        title: "Snake Game",
+        subtitle: "HTML, CSS, and JavaScript",
         description:
-        "This app allows users to easily create, edit, and delete notes. Users can create new notes by entering a title and the note's content. They can also edit existing notes by clicking on the note to open it, making changes, and then saving it. Users can also delete notes by clicking on the note and then clicking the delete button. The app allows users to keep track of their notes and easily organize them for their convenience.",
-        image: "./images/notetaker.png",
-        github:'https://github.com/c1008h/Note-Taker',
-        demo: './demo/notetaker.gif'
+        "This is a simple snake game. User's can control to snake with the arrow keys to grow the snake by eating the yellow food blocks.",
+        image: "./images/snakegame.png",
+        github:'https://github.com/c1008h/Snake-Game',
+        link: "https://c1008h.github.io/Snake-Game/",
+        // demo: './demo/notetaker.gif'
     },
     // {
     //     id: 6,
