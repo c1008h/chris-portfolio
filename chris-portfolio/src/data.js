@@ -26,7 +26,7 @@ export const ghprojects = [
         title: "Food Genie",
         subtitle: "MongoDB, Express, React, Node.Js, Graphql",
         description:
-        "An app that allows users to be nolstalgic about old lego sets or learn more about new lego sets.",
+        "Introducing the Food Genie, the perfect solution for indecisive foodies! Save all your favorite foods and restaurants in one place, and let the Genie take care of the rest. With a simple tap, the Genie randomly selects an item from your saved list, saving you time and reducing the stress of deciding where to eat. No more endless scrolling or debating with friends, let the Food Genie help you discover new and exciting dining experiences.",
         image: "./images/foodgenie.png",
         github:'https://github.com/c1008h/FoodGenie',
         link: "https://foodgenie-ch.herokuapp.com/",
