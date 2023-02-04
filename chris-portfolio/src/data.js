@@ -47,11 +47,11 @@ export const ghprojects = [
         title: "Snake Game",
         subtitle: "HTML, CSS, and JavaScript",
         description:
-        "This is a simple snake game. User's can control to snake with the arrow keys to grow the snake by eating the yellow food blocks.",
+        "A snake game is a classic arcade-style game where the player controls a snake that moves across the screen, collecting food and growing in length. The goal of the game is to avoid collision with the walls or the snake's own body, and reach the highest score possible. The snake's movement is controlled by the player using arrow keys. The game becomes more challenging as the snake grows longer, and the player must navigate through increasingly tighter spaces. The game often features various power-ups that can increase the snake's speed. The game ends when the snake crashes into a wall or its own body.",
         image: "./images/snakegame.png",
         github:'https://github.com/c1008h/Snake-Game',
         link: "https://c1008h.github.io/Snake-Game/",
-        // demo: './demo/notetaker.gif'
+        demo: './demo/SnakeGame.gif'
     },
     // {
     //     id: 6,
