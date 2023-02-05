@@ -5,7 +5,8 @@
     background-position: center;
     width: 100% !important;
     height: 100vh !important; /* 100% of the viewport height */
-    position: relative;
+    /* position: fixed; */
+    overflow:hidden;
     z-index:1000;
     justify-content: center;
     text-align: center;
