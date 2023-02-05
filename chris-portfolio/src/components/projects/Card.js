@@ -3,7 +3,7 @@ import {  FaGithubAlt } from 'react-icons/fa'
 import { ghprojects } from "../../data"
 // import Button from 'react-bootstrap/Button';
 // import Modal from 'react-bootstrap/Modal';
-import {ProjectModal} from './Modal.js'
+import ProjectModal from './Modal.js'
 export default function Card() {
   const [show, setShow] = useState({});
 
