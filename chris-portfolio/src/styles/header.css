@@ -23,20 +23,6 @@
 }
 
 .name-container {
-    /* position: absolute; */
-    /* top: 30%;
-    width: 100%;
-    text-align: center;
-    /* display: inline-block;
-    position: relative;
-
-    color: rgb(255, 255, 255);
-    font-size: 250%;
-    text-shadow: 2px 2px 8px ; */
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; */
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -48,12 +34,7 @@
     white-space: nowrap;
 
 }
-/* .name {
-    display: inline-block;
-    font-size: 2em;
-    text-align: center;
-    animation: bounceIn 1s ease forwards;
-} */
+
 .name {
     color: rgb(255, 255, 255);
     font-size: 100%;
@@ -110,7 +91,6 @@
 }
 #downBtn:hover {
     color: rgba(255, 255, 255, 1);
-    /* box-shadow: 0 5px 15px var(--lighterblue); */
 }
 
 @media (max-height: 850px) {
