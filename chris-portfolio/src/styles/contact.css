@@ -1,7 +1,8 @@
 #contact {
-    background-color: whitesmoke;
+    background-color: var(--darkblue);
     margin: auto;
     padding: 5% 0;
+    color:var(--clickables);
 }
 
 @media (max-width: 770) {

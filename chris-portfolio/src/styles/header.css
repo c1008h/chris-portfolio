@@ -96,12 +96,10 @@
     justify-content: center;
     text-align: center;
     top: 80%;
-
-
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
     /* background: rgb(86, 120, 158); */
-    background-color: var(--darkblue);
+    /* background-color: var(--darkblue); */
     /* padding: 15px 40px; */
     border-radius: 4px;
     font-weight: normal;
@@ -112,7 +110,7 @@
 }
 #downBtn:hover {
     color: rgba(255, 255, 255, 1);
-    box-shadow: 0 5px 15px var(--lighterblue);
+    /* box-shadow: 0 5px 15px var(--lighterblue); */
 }
 
 @media (max-height: 850px) {

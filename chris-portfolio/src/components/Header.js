@@ -1,12 +1,12 @@
 import React, {useState, useEffect} from 'react';
-import {FaArrowDown} from 'react-icons/fa'
+import {FaChevronDown} from 'react-icons/fa'
 import {Button} from 'react-bootstrap'
 import { Link } from 'react-scroll';
 import '../styles/header.css'
 
 export default function Header() {
   const [letters, setLetters] = useState([]);
-  const name = "CHRIS HONG";
+  const name = "CHRIS_HONG";
 
   useEffect(() => {
     let timeoutId;
@@ -40,14 +40,14 @@ export default function Header() {
             ))}
           </h1>
         </div>
-        <div className='col-12' style={{justifyContent:'center', textAlign:'center'}}>
+        {/* <div className='col-12' style={{justifyContent:'center', textAlign:'center'}}> */}
           <Link activeClass='active' to='about' spy={true}
             smooth={true} offset={0} duration={500}>
-            {/* <FaArrowDown size={50} id='downBtn'/> */}
-            <button id='downBtn'>More Info</button>
+            <FaChevronDown size={105} id='downBtn'/>
+            {/* <button id='downBtn'>More Info</button> */}
 
           </Link>
-        </div>
+        {/* </div> */}
 
       </div>
     </header>

@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles/index.css'
-import Card from '../components/projects/Card'
+import CardProjects from '../components/projects/CardProjects.js'
 
 export default function Projects () {
   return (
@@ -9,7 +9,7 @@ export default function Projects () {
         <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4">
             My Projects
         </h1>
-        <Card />
+        <CardProjects />
       </div>
     </section>
   );

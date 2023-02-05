@@ -2,6 +2,7 @@
 
 #about {
     width: auto;
+    background-color: var(--clickables);
 }
 
 /* @media (min-width: 400px) {

@@ -15,9 +15,13 @@
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-ms: 90%;
-  --darkblue: rgb(92, 117, 146);
+  --darkblue:rgb(92, 117, 146);
+  --lightest: rgb(233, 243, 255);
+
+  --superlightblue:rgb(92, 117, 146, .2);
   --lighterblue:rgb(92, 117, 146, .4);
-  --clickables: rgb(92, 117, 146, .6);
+  --hoverclicks:rgb(207, 227, 241);
+  --clickables: rgb(168, 190, 214);
 }
 
 html {
@@ -34,7 +38,8 @@ section {
 }
 /* Navbar  */
 #navbar {
-  background-color: var(--darkblue);
+  background-color: var(--lightest);
+  color:var(--darkblue);
   width:100%;
   height: 90px;
   justify-content: space-around;
@@ -55,15 +60,22 @@ section {
 #showAfter {
   display:none;
 }
+#about {
+  background-color: var(--superlightblue);
+}
+
+#projects{
+  background-color: var(--superlightblue);
+}
 
 /* Click icons and buttons */
 #clicks {
-  color:var(--darkblue);
+  color:var(--clickables);
   text-decoration: none;
 
 }
 #clicks:hover {
-  color:var(--lighterblue)
+  color:var(--hoverclicks)
 }
 
 #description {
@@ -71,13 +83,14 @@ section {
   text-decoration: none;
 
 }
+
 #description:hover{
   background-color: var(--lighterblue);
 }
 
 /* Footer */
 footer {
-  background-color: var(--darkblue);
+  background-color: var(--lightest);
   background-size: cover;
   padding:5% 0;
 }
