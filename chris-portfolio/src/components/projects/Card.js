@@ -38,7 +38,7 @@ export default function Card() {
                   className="col-10 m-4"
                   key={item.image}
                   src={item.image}
-                  style={{height:'250px', width:'85%', objectFit:'cover', opacity:'.85'}}
+                  style={{height:'250px', width:'85%', objectFit:'cover', opacity:'.85', borderRadius:"5px"}}
                 />
               </a>
           </div> 

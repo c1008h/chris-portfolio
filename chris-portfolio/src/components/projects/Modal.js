@@ -28,7 +28,7 @@ export default function ProjectModal({handleClose, item, show}) {
             </Modal.Header>
             <Modal.Body style={{margin:'2px'}}>
                 <div style={{textAlign:'center'}}>
-                <img src={item.demo} style={{width:'85%', justifyContent:'center', borderRadius:'25px'}} alt='short demo of app'/>
+                <img src={item.demo} style={{width:'85%', justifyContent:'center', borderRadius:'15px'}} alt='short demo of app'/>
                     <br/>
                     {item.description}
                 </div>
