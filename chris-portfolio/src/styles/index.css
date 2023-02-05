@@ -29,11 +29,24 @@ html {
 section {
   padding: 10% 0;
 }
-/* 
-#portfolioSquares {
-  position: relative;
-  opacity:.80;
-} */
+
+#navbar {
+  background-color: aliceblue;
+  width:100%;
+  height: 90px;
+  justify-content: space-around;
+  position: fixed;
+  top: -90px;
+  z-index: 1;
+  transition: top 0.3s;
+}
+
+#navbar.visible {
+  top:0;
+}
+#navbar.hidden {
+  top: -90px;
+}
 
 .navbar > .active {
   font-weight: bold;

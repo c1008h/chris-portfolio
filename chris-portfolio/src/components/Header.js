@@ -1,33 +1,9 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import {FaArrowDown} from 'react-icons/fa'
 import { Link } from 'react-scroll';
 import '../styles/header.css'
 
 export default function Header() {
-  // const code = `Hi, my name is Chris!`;
-  
-  // function TypeCode({ code }) {
-  //   const [text, setText] = useState("");
-  //   let i = 0;
-  
-  //   setTimeout(() => {
-  //     const interval = setInterval(() => {
-  //       if (i < code.length) {
-  //         setText((prevText) => prevText + code[i]);
-  //         i++;
-  //       } else {
-  //         clearInterval(interval);
-  //       }
-  //     }, 50);
-  //   }, 1000);
-  
-  //   return (
-  //     <pre className="responsive-headerline" id="name">
-  //       <code>{text}</code>
-  //     </pre>
-  //   );
-  // }
-
   return (
     
     <header id='homepage' className='col-12'>

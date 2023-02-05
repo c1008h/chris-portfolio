@@ -1,8 +1,12 @@
 #home {
     background: url('/public/images/headerxD.png') center no-repeat;
+    opacity: 0.9;
     background-size: cover !important;
+    background-position: center;
     width: 100% !important;
     height: 100vh !important; /* 100% of the viewport height */
+    position: relative;
+    z-index:1000;
 }
 
 .socialmedia {
@@ -22,7 +26,8 @@
     width: 100%;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 300%;
+    font-size: 250%;
+    text-shadow: 2px 2px 8px ;
 }
 
 #downBtn {
