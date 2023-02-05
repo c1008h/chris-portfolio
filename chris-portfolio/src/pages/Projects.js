@@ -1,10 +1,6 @@
 import React from "react";
 import '../styles/index.css'
 import Card from '../components/projects/Card'
-// import {  FaGithubAlt } from 'react-icons/fa'
-// import { ghprojects } from "../data"
-// import Button from 'react-bootstrap/Button';
-// import Modal from 'react-bootstrap/Modal';
 
 export default function Projects () {
   // const [show, setShow] = useState({});

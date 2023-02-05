@@ -9,7 +9,7 @@ export default function ProjectModal(props) {
                 <Modal.Title className="col-5">{props.item.title}</Modal.Title>
                 <p className="col-3" style={{}}>{props.item.subtitle}</p>
             </Modal.Header>
-            <Modal.Body>
+            <Modal.Body style={{margin:'2px'}}>
                 <img src={props.item.demo} style={{width:'85%', justifyContent:'center'}} alt='short demo of app'/>
                 <br/>
                 {props.item.description}
