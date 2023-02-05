@@ -13,7 +13,7 @@ export default function Contact() {
     <div className='col-12' style={{display:'flex', textAlign:'center', justifyContent:'center', alignItems:'center'}}>
       <div className='m-4'>
         <a href='mailto:hongchris97@gmail.com?subject=Mail from Portfolio' target='__blank'>  
-          <FaEnvelope size={30} 
+          <FaEnvelope size={30} id='clicks'
             // style={{color: 'white'}} 
           />
         </a>
@@ -23,12 +23,12 @@ export default function Contact() {
       </div>
       <div className='m-4'>
         <a href='https://github.com/c1008h' target='__blank'>
-          <FaGithubAlt size={30}/></a>
+          <FaGithubAlt size={30} id='clicks'/></a>
         <p>@c1008h</p>
       </div>
       <div className='m-4'>
         <a href='https://www.linkedin.com/in/hong-chris/' target='__blank'>
-            <FaLinkedin size={30}/>
+            <FaLinkedin size={30} id='clicks'/>
         </a>
         <p className="row">Let's Connect!</p>
       </div>

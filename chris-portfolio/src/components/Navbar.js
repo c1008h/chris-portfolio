@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React from 'react';
 import { Link } from 'react-scroll';
 import { NavbarContext } from '../utils/nav';
 import '../styles/index.css'
@@ -12,7 +12,7 @@ export default function Navbar () {
     return(
         <>
        
-        <div id="navbar"
+        <nav id="navbar"
         // className='navbar col-12 navbar-expand-lg navbar-light bg-light'
         className={className}
         // style={{
@@ -58,7 +58,7 @@ export default function Navbar () {
                 Contact
             </Link>
         
-        </div> 
+        </nav> 
       
         </>
         

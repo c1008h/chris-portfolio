@@ -15,6 +15,9 @@
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-ms: 90%;
+  --darkblue: rgb(92, 117, 146);
+  --lighterblue:rgb(92, 117, 146, .4);
+  --clickables: rgb(92, 117, 146, .6);
 }
 
 html {
@@ -29,9 +32,9 @@ html {
 section {
   padding: 10% 0;
 }
-
+/* Navbar  */
 #navbar {
-  background-color: aliceblue;
+  background-color: var(--darkblue);
   width:100%;
   height: 90px;
   justify-content: space-around;
@@ -40,20 +43,39 @@ section {
   z-index: 1;
   transition: top 0.3s;
 }
-
 #navbar.visible {
   top:0;
 }
 #navbar.hidden {
   top: -90px;
 }
-
 .navbar > .active {
   font-weight: bold;
 }
-
 #showAfter {
   display:none;
+}
+
+/* Click icons and buttons */
+#clicks {
+  color:var(--darkblue)
+}
+#clicks:hover {
+  color:var(--lighterblue)
+}
+
+#description {
+  background-color: var(--darkblue);
+}
+#description:hover{
+  background-color: var(--lighterblue);
+}
+
+/* Footer */
+footer {
+  background-color: var(--darkblue);
+  background-size: cover;
+  padding:5% 0;
 }
 
 @media only screen and (max-width: 650px) {

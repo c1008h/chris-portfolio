@@ -34,7 +34,7 @@ export default function ProjectModal({handleClose, item, show}) {
                 </div>
             </Modal.Body>
             <Modal.Footer>
-                <Button variant="secondary" onClick={() => handleClose(item.id)}>
+                <Button variant="secondary" id='description' onClick={() => handleClose(item.id)}>
                     Close
                 </Button>
             </Modal.Footer>

@@ -2,7 +2,9 @@ import React from 'react';
 
 function Footer ({ currentPage, handlePageChange }) {
     return (
-        <footer style={{backgroundColor:'#7395AE', backgroundSize: 'cover', padding:'5% 0'}}>
+        // <footer style={{backgroundColor:'#7395AE', backgroundSize: 'cover', padding:'5% 0'}}>
+        <footer>
+
             <p style={{textAlign: 'center'}}>Copyright © 2022 Chris Hong</p>
         </footer>
     )

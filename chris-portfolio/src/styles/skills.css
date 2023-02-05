@@ -1,18 +1,10 @@
 #skill {
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-color: var(--lighterblue);
     background-size: cover;
     overflow-x: hidden;   
     /* height: calc(100vh - 100px); */
     /* overflow-y: 'scroll'; */
-}
-
-/* Progressive Circle */
-h4 {
-    text-align: center;
-}
-
-.circles {
-    margin: auto;
 }
 
 @media (max-width: 770) {

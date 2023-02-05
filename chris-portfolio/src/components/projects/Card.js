@@ -47,7 +47,7 @@ export default function Card() {
             <div className="col-12" style={{display:'flex', textAlign:'center', justifyContent:'center', alignItems:'center'}}> 
               <a key={item.github} href={item.github} rel="noreferrer"
                 target="_blank" className='col-7'>
-                <FaGithubAlt size={25}/>
+                <FaGithubAlt size={25} id='clicks'/>
               </a>
               
               <button type='button' key={item.id} className='btn btn-dark col' id='description' 
