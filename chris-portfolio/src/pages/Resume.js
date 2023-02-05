@@ -4,7 +4,7 @@ export default function Resume() {
             <div className="row m-2">
                 <h3>Resume</h3>
                 <a 
-                    href="https://drive.google.com/file/d/1BkEqmlLl-OoUIi_Py2uhWGP0iELC8NKg/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1zH23MOrQsAYbVNPZ2Kvgh5Yc6sP8M-lw/view?usp=sharing"
                     rel="noreferrer"
                     target="_blank"
                     style={{textAlign:'left', marginLeft:'20px'}}
