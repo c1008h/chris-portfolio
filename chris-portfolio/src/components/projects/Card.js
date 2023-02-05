@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 import {  FaGithubAlt } from 'react-icons/fa'
 import { ghprojects } from "../../data"
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
-
+// import Button from 'react-bootstrap/Button';
+// import Modal from 'react-bootstrap/Modal';
+import {ProjectModal} from './Modal.js'
 export default function Card() {
   const [show, setShow] = useState({});
 
@@ -54,25 +54,9 @@ export default function Card() {
                 onClick={() => handleShow(item.id)}>
                   Description
               </button>
-
-              <Modal key={item} id={item.id} show={show[item.id]} onHide={() => handleClose(item.id)}>
-                <Modal.Header closeButton>
-                    <Modal.Title className="col-5" key={item.title}>{item.title}</Modal.Title>
-                    <p className="col-3" style={{}} key={item.subtitle}>{item.subtitle}</p>
-                </Modal.Header>
-                <Modal.Body>
-                  <div style={{textAlign:'center'}}>
-                  <img src={item.demo} style={{width:'85%'}} alt='short demo of app'/>
-                    <br/>
-                    {item.description}
-                  </div>
-                </Modal.Body>
-                <Modal.Footer>
-                    <Button variant="secondary" onClick={() => handleClose(item.id)}>
-                        Close
-                    </Button>
-                </Modal.Footer>
-              </Modal>
+              <ProjectModal handleClose={handleClose} item={item} show={show}
+              />
+              
             </div>
           </div>
         </div>
