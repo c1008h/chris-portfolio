@@ -16,6 +16,7 @@ export default function Header() {
         if (index < name.length - 1) {
           animateLetters(index + 1);
         }
+        return
       }, 500);
     };
     animateLetters(0);
@@ -39,13 +40,15 @@ export default function Header() {
             ))}
           </h1>
         </div>
+        <div className='col-12' style={{justifyContent:'center', textAlign:'center'}}>
+          <Link activeClass='active' to='about' spy={true}
+            smooth={true} offset={0} duration={500}>
+            {/* <FaArrowDown size={50} id='downBtn'/> */}
+            <button id='downBtn'>More Info</button>
 
-        <Link activeClass='active' to='about' spy={true}
-          smooth={true} offset={0} duration={500}>
-          {/* <FaArrowDown id='downBtn'/> */}
-          <Button id='downBtn'>More Info</Button>
+          </Link>
+        </div>
 
-        </Link>
       </div>
     </header>
   );
