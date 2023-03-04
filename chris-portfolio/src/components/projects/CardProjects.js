@@ -20,7 +20,7 @@ export default function CardProjects() {
 
       {ghprojects.map((item) => (
         <Card className="col-lg-4 col-md-6 col-sm-12" style={{marginBottom:'5%', 
-        marginTop:'5%', borderRadius:'25px'}}> 
+        marginTop:'5%', borderRadius:'25px'}} key={item.id}> 
         <div id ='cards'
         style={{
         //   marginBottom:'5%', 

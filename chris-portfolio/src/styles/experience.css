@@ -1,0 +1,44 @@
+#experience {
+    background-color: var(--lighterblue);
+    background-size: cover;
+    overflow-x: hidden;   
+    justify-content: center;
+    text-align: center;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#experienceYear {
+    /* justify-content: left;
+    text-align: left; */
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+#yearBtn {
+    margin: 2%;
+}
+#yearBtn.active {
+    font-size: 24px;
+    padding: 10px 20px;
+}
+
+#card-container {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#experienceCard {
+    border-radius: 15px;
+    width: 80%;
+    /* left:300px; */
+    text-align: left;
+    padding:2%;
+    margin: 2%;
+}

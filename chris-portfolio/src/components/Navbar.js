@@ -44,13 +44,19 @@ export default function Navbar () {
             smooth={true} offset={0} duration={500}>
                 Projects
             </Link>
-            <a 
+            {/* <a 
             className='nav-link'
             activeclass='active' 
             href='https://drive.google.com/file/d/135w-vPrzR7uOJkbXtZvilBxYLgxt9Qyn/view?usp=sharing' 
             target="_blank" rel='noreferrer'>
                 Resume
-            </a>
+            </a> */}
+                        <Link 
+            className='nav-link'
+            activeClass='active' to='experience' spy={true}
+            smooth={true} offset={0} duration={500}>
+                Experience
+            </Link>
             <Link 
             className='nav-link'
             activeClass='active' to='contact' spy={true}

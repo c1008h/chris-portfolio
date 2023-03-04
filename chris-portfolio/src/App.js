@@ -4,7 +4,7 @@ import Footer from './components/Footer'
 import Navbar from './components/Navbar'
 import About from './pages/About'
 import Skills from './pages/Skills'
-// import Project from './pages/Projects'
+import Experience from './pages/Experience'
 import Contact from './pages/Contact'
 import { NavbarProvider } from "./utils/nav";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -20,6 +20,7 @@ export default function App() {
       <About />
       <Skills />
       <Projects />
+      <Experience />
       <Contact />
       <Footer />
     </NavbarProvider>

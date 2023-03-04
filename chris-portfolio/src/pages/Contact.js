@@ -3,8 +3,6 @@ import {  FaGithubAlt, FaLinkedin, FaEnvelope} from 'react-icons/fa'
 import '../styles/contact.css'
 import '../styles/index.css'
 
-
-
 export default function Contact() {
   
   return (
@@ -18,7 +16,7 @@ export default function Contact() {
           />
         </a>
         <p className="row">   
-          hongchris97@gmail.com           
+          honggchriss@gmail.com           
         </p>
       </div>
       <div className='m-4'>

@@ -1,6 +1,7 @@
 import React from 'react';
 import About from './About'
 import Skills from './Skills'
+import Experience from './Experience'
 import Contact from './Contact'
 import Project from './Projects'
 import Navbar from '../components/Navbar'
@@ -16,6 +17,7 @@ export default function MiddleSection() {
             <About/>
             <Skills/>
             <Project/>
+            <Experience/>
             <Contact/>
         </>
     )

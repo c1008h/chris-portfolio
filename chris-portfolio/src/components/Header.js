@@ -40,14 +40,14 @@ export default function Header() {
             ))}
           </h1>
         </div>
-        {/* <div className='col-12' style={{justifyContent:'center', textAlign:'center'}}> */}
+        <div className='col-12' style={{justifyContent:'center', textAlign:'center'}}>
           <Link activeClass='active' to='about' spy={true}
             smooth={true} offset={0} duration={500}>
             <FaChevronDown size={105} id='downBtn'/>
             {/* <button id='downBtn'>More Info</button> */}
 
           </Link>
-        {/* </div> */}
+        </div>
 
       </div>
     </header>
