@@ -5,7 +5,7 @@ export const experienceData = [
         yearRange: '2023-Present',
         name: 'Founder and Administrator',
         institute: 'Programming Accountability Group',
-        description:'' 
+        description:'As the founder and admin of a programming accountability group, I took on the responsibility of organizing regular meetings, setting goals and guidelines, and providing feedback and support to help developers stay motivated and accountable. This experience allowed me to develop important skills in leadership, time management, and collaboration, while also contributing to the growth and success of the group. It was a rewarding experience that helped me refine my professional and entrepreneurial skills.' 
     },
     {
         id: 5,
@@ -13,7 +13,7 @@ export const experienceData = [
         yearRange: '2023-2023',
         name: 'Hackathon',
         institute: 'Bay Area Hacks 23',
-        description:'During a hackathon event, I worked on a team of two to develop a MERN application with GraphQL and Material UI. Originally a team of four, we had to adapt to unexpected situations when some members bailed, but we remained focused on completing the project within the given timeframe of less than 48 hours. As a full-stack developer, I was responsible for both the frontend and backend of the application, utilizing React, JavaScript, Express, Node, and GraphQL. Our project was a job search application that utilized a job API and MongoDB as our database. We also delivered a pitch presentation to showcase our product and its features. This experience not only enhanced my skills in software development but also strengthened my ability to work under pressure and adapt to unexpected changes.' 
+        description:'During this hackathon event, I worked on a team of two to develop a MERN application with GraphQL and Material UI. Originally a team of four, we had to adapt to unexpected situations when some members bailed, but we remained focused on completing the project within the given timeframe of less than 48 hours. As a full-stack developer, I was responsible for both the frontend and backend of the application, utilizing React, JavaScript, Express, Node, and GraphQL. Our project was a job search application that utilized a job API and MongoDB as our database. We also delivered a pitch presentation to showcase our product and its features. This experience not only enhanced my skills in software development but also strengthened my ability to work under pressure and adapt to unexpected changes.' 
     },
     {
         id: 4,

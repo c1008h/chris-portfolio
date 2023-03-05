@@ -65,13 +65,13 @@ export default function Experience() {
                         <div id='card-container'> 
                             {filteredData.map(filteredItem => (
                             <Card id='experienceCard' key={filteredItem.yearRange}>
-                                <Card.Title>{filteredItem.name}
+                                <Card.Title style={{ marginBottom: '0.5rem' }}>{filteredItem.name}
                                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '0.5rem' }}>
                                         <p style={{color:'grey'}}>{filteredItem.institute}</p>
                                         <p>{filteredItem.yearRange && filteredItem.yearRange.split('-').join(' - ')}</p>
                                     </div>
                                 </Card.Title>
-                                <Card.Body>{filteredItem.description}</Card.Body>
+                                <Card.Body style={{ marginTop: 0, paddingTop: 0 }}>{filteredItem.description}</Card.Body>
                             </Card>                           
                         ))}
                     </div>
