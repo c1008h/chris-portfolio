@@ -6,6 +6,16 @@
     /* height: calc(100vh - 100px); */
     /* overflow-y: 'scroll'; */
 }
+#container {
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    height:50px;
+    width:50px;
+    margin:2%;
+}
 
 @media (max-width: 770) {
     #skill {
