@@ -17,11 +17,15 @@ export default function About() {
             fontSize: '20px', 
             margin: 'auto'
             }}>
-              Full-Stack developer with a strong background in customer service to deliver satisfaction through simplifying complex applications. 
-              Earned a certificate in Full Stack Web Development from the University of Washington Coding Boot Camp with hands-on experience in HTML, CSS, JavaScript, React, and jQuery. 
-              Driven to solve challenging problems and collaborate with a passionate team to build creative projects from ideation to execution. 
-              I enjoy organizing code for easier collaboration and troubleshooting. 
-              With a customer service mindset, I excel at improving user experiences through increased accessibility.
+              Hello, and welcome to my portfolio! 
+              I'm a software developer with a background in anthropology and a passion for creating accessible, user-friendly technology. 
+              My academic background in anthropology, the study of human behavior and society, has helped me develop a strong understanding of user needs and behavior, which I bring to my work in technology.
+              During my undergraduate studies, I explored my interests in technology and informatics, which ultimately led me to enroll in a Fullstack Coding Bootcamp after graduation. 
+              Since then, I've been constantly learning and expanding my skills as a software developer. 
+              I'm an analytical problem solver with a keen attention to detail, and I approach every project with organization, motivation, and focus.
+              At the heart of my work is a desire to create technology that's accessible to all users, regardless of their abilities. 
+              I believe that technology should be inclusive and user-centered, and I'm committed to contributing to that goal through my work as a software developer.
+              Thanks for stopping by! If you have any questions or would like to chat, please feel free to [Contact Form or Email Address].
           </p>
         </div>
     </section>
