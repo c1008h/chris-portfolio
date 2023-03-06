@@ -1,5 +1,6 @@
 import React from "react";
 import '../styles/index.css'
+import '../styles/projects.css'
 import CardProjects from '../components/projects/CardProjects.js'
 
 export default function Projects () {
