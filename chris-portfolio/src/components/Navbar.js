@@ -34,14 +34,7 @@ export default function Navbar () {
             smooth={true} offset={0} duration={500}>
                 Projects
             </Link>
-            {/* <a 
-            className='nav-link'
-            activeclass='active' 
-            href='https://drive.google.com/file/d/135w-vPrzR7uOJkbXtZvilBxYLgxt9Qyn/view?usp=sharing' 
-            target="_blank" rel='noreferrer'>
-                Resume
-            </a> */}
-                        <Link 
+            <Link 
             className='nav-link'
             activeClass='active' to='experience' spy={true}
             smooth={true} offset={0} duration={500}>
@@ -53,13 +46,14 @@ export default function Navbar () {
             smooth={true} offset={-750} duration={500}>
                 Contact
             </Link>
-            <button><a href='https://drive.google.com/file/d/157zT_h-jEf0DpMbv1Zs64yn-oVH1MZlQ/view?usp=sharing' target='__blank'>Resume</a></button>
+            <button>
+                <a href='https://drive.google.com/file/d/157zT_h-jEf0DpMbv1Zs64yn-oVH1MZlQ/view?usp=sharing' 
+                target='_blank'
+                rel='noreferrer'
+                >Resume</a>
+            </button>
         
         </nav> 
-      
         </>
-        
     )
-        
-    
 }
