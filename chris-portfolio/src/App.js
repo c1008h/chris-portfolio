@@ -6,7 +6,7 @@ import About from './pages/About'
 import Skills from './pages/Skills'
 import Experience from './pages/Experience'
 import Contact from './pages/Contact'
-import { NavbarProvider } from "./utils/nav";
+import { NavbarProvider } from "./utils/nav.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/index.css'
 import Projects from "./pages/Projects";

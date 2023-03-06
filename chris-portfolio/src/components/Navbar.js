@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
-import { NavbarContext } from '../utils/nav';
+import { NavbarContext } from '../utils/nav.js';
 import '../styles/index.css'
 
 export default function Navbar () {
