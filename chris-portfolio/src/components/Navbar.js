@@ -7,7 +7,7 @@ export default function Navbar () {
     const { state } = React.useContext(NavbarContext);
     const className = `navbar ${state.isNavbarVisible ? 'visible' : 'hidden'}`;
 
-    if (window.location.pathname === '/') return null;  // added this line
+    // if (window.location.pathname === '/') return null;  // added this line
     console.log('navbar')
     return(
         <>
