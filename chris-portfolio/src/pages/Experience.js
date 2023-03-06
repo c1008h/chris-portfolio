@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Card, Container } from 'react-bootstrap'
-import { experienceData } from '../experienceData'
+import { experienceData } from '../constants/experienceData'
 import '../styles/experience.css'
 
 export default function Experience() {

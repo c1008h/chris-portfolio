@@ -1,9 +1,7 @@
 import React from 'react';
-// import { CircularProgressbar } from 'react-circular-progressbar';
-// import 'react-circular-progressbar/dist/styles.css';
 import '../styles/skills.css'
 import '../styles/index.css'
-import { DB, FE, BE, TF } from '../skillData';
+import { DB, FE, BE, TF } from '../constants/skillData';
 
 export default function About() {
     return (

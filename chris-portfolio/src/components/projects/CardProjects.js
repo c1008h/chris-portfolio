@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {  FaGithubAlt } from 'react-icons/fa'
-import { ghprojects } from "../../data"
+import { ghprojects } from "../../constants/data"
 import ProjectModal from './Modal.js'
 import {Card} from 'react-bootstrap'
 
