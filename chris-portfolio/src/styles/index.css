@@ -73,6 +73,15 @@ section {
   z-index: 1;
   transition: top 0.3s;
 }
+#resumeBtn {
+  background-color:var(--darkblue);
+  border-radius: 10px;
+  padding:1%;
+}
+#resume {
+  color:var(--lightest);
+  text-decoration: none;
+}
 #navbar.visible {
   top:0;
 }

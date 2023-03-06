@@ -8,6 +8,7 @@ export default function Contact() {
   return (
   <section id="contact">
     <h3 style={{textAlign:'center', fontSizeAdjust:'inherit', marginBottom:'10px'}}>Contact</h3>
+    <p style={{textAlign:'center', fontSizeAdjust:'inherit', marginBottom:'10px'}}>If you have any questions or would like to chat, please feel free to reach out!</p>
     <div className='col-12' style={{display:'flex', textAlign:'center', justifyContent:'center', alignItems:'center'}}>
       <div className='m-4'>
         <a href='mailto:hongchris97@gmail.com?subject=Mail from Portfolio' target='__blank'>  

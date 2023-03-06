@@ -22,19 +22,33 @@
     font-size: 30px;
 }
 
-.name-container {
+#name-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
-    height: 100vh;
-    font-size: 72px;
+    height:100;
+    /* font-size: 72px; */
     font-weight: bold;
-    white-space: nowrap;
+    color: var(--clickables);
+    /* white-space: nowrap; */
+    padding: 15%;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 
 }
+#greet {
+    font-size: 30px;
+}
+#name {
+    font-size: 72px;
+    color: var(--lightest);
 
+}
+#title {
+    font-size: 30px;
+
+}
 .name {
     color: rgb(255, 255, 255);
     font-size: 100%;

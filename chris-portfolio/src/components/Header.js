@@ -31,7 +31,7 @@ export default function Header() {
     
     <header id='homepage' className='col-12'>
       <div id='home'>
-        <div className='name-container'>
+        {/* <div className='name-container'>
           <h1 className="name">
             {letters.map((letter, index) => (
             <span key={index} className="letter">
@@ -39,7 +39,13 @@ export default function Header() {
             </span>
             ))}
           </h1>
+        </div> */}
+        <div id='name-container' style={{display:'flex', flexDirection:'column', textAlign:'left'}}>
+          <span id='greet'>Hi, my name is</span>
+          <span id='name'>Chris Hong.</span>
+          <span id='title'>I'm a software developer with a background in anthropology and a passion for creating accessible, user-friendly technology. </span>
         </div>
+
         <div className='col-12' style={{justifyContent:'center', textAlign:'center'}}>
           <Link activeClass='active' to='about' spy={true}
             smooth={true} offset={0} duration={500}>

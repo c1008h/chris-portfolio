@@ -71,7 +71,7 @@ export default function Experience() {
                                         <p>{filteredItem.yearRange && filteredItem.yearRange.split('-').join(' - ')}</p>
                                     </div>
                                 </Card.Title>
-                                <Card.Body style={{ marginTop: 0, paddingTop: 0 }}>{filteredItem.description}</Card.Body>
+                                <Card.Body style={{ marginTop: 0, paddingTop: 0, fontSize:'14px' }}>{filteredItem.description}</Card.Body>
                             </Card>                           
                         ))}
                     </div>

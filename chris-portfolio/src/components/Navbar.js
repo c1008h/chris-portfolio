@@ -7,8 +7,6 @@ export default function Navbar () {
     const { state } = React.useContext(NavbarContext);
     const className = `navbar ${state.isNavbarVisible ? 'visible' : 'hidden'}`;
 
-    // if (window.location.pathname === '/') return null;  // added this line
-    console.log('navbar')
     return(
         <>
        
@@ -46,10 +44,11 @@ export default function Navbar () {
             smooth={true} offset={-750} duration={500}>
                 Contact
             </Link>
-            <button>
+            <button id='resumeBtn'>
                 <a href='https://drive.google.com/file/d/157zT_h-jEf0DpMbv1Zs64yn-oVH1MZlQ/view?usp=sharing' 
                 target='_blank'
                 rel='noreferrer'
+                id='resume'
                 >Resume</a>
             </button>
         
