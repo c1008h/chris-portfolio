@@ -41,7 +41,7 @@ export default function Navbar () {
             <Link 
             className='nav-link'
             activeClass='active' to='contact' spy={true}
-            smooth={true} offset={-750} duration={500}>
+            smooth={true} offset={1750} duration={500}>
                 Contact
             </Link>
             <button id='resumeBtn'>

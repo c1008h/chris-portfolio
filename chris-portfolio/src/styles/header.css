@@ -21,14 +21,13 @@
     justify-content: space-around;
     font-size: 30px;
 }
-
 #name-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     /* align-items: center; */
     justify-content: center;
-    height:100;
+    height:95%;
     /* font-size: 72px; */
     font-weight: bold;
     color: var(--clickables);
@@ -43,11 +42,30 @@
 #name {
     font-size: 72px;
     color: var(--lightest);
-
+    /* white-space: nowrap; */
 }
 #title {
     font-size: 30px;
-
+}
+#socialcontainer {
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 3.5rem;
+}
+#socials {
+    color: var(--lightest);
+    text-decoration: none;
+}
+#socials:hover {
+    color:var(--hoverclicks)
+}
+@media only screen and (max-width: 395px) {
+    #greet, #title {
+        font-size: 20px;
+    }
+    #name {
+        font-size:60px;
+    }
 }
 .name {
     color: rgb(255, 255, 255);
@@ -90,18 +108,15 @@
     position: absolute;
     justify-content: center;
     text-align: center;
+    align-items: center;
     top: 80%;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
-    /* background: rgb(86, 120, 158); */
-    /* background-color: var(--darkblue); */
-    /* padding: 15px 40px; */
     border-radius: 4px;
     font-weight: normal;
     text-transform: uppercase;
     transition: all 0.2s ease-in-out;
     padding: 1% 2%;
-    /* font-size: 30px; */
 }
 #downBtn:hover {
     color: rgba(255, 255, 255, 1);

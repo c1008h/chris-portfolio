@@ -14,7 +14,7 @@ export default function About() {
             height:'200px', width:'auto', borderRadius:'50%', display:'block', margin:'auto'
           }}/>
           <p className='col-8 mt-3' style={{
-            fontSize: '14px', 
+            fontSize: '16px', 
             margin: 'auto'
             }}>
               Welcome to my portfolio!  
