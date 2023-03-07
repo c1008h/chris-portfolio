@@ -6,6 +6,7 @@ import '../styles/experience.css'
 export default function Experience() {
     const [activeNavItem, setActiveNavItem] = useState("Present");
     const currentYear = new Date().getFullYear().toString();
+    const [expandedCards, setExpandedCards] = useState([]);
 
     const handleNavItemClicked = (year) => {
         if (year !== activeNavItem) {
@@ -14,6 +15,7 @@ export default function Experience() {
             } else {
               setActiveNavItem(year);
             }
+            setExpandedCards(new Set());
         }    
     };
     
@@ -43,6 +45,13 @@ export default function Experience() {
             return item.year === activeNavItem || (item.yearRange && item.yearRange.includes(activeNavItem));
         }
     });
+    const handleCardToggle = (cardIndex) => {
+        if (expandedCards.includes(cardIndex)) {
+            setExpandedCards(expandedCards.filter(index => index !== cardIndex));
+        } else {
+            setExpandedCards([...expandedCards, cardIndex]);
+        }
+    };
 
     return (
         <section id='experience'>
