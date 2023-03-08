@@ -47,7 +47,6 @@ export default function Header() {
           <div id='socialcontainer'>
             <a href='mailto:hongchris97@gmail.com?subject=Mail from Portfolio' target='__blank'>  
               <FaEnvelope size={30} id='socials' />
-              {/* // style={{color: 'white'}}  */}
             </a>
             <a href='https://github.com/c1008h' target='__blank'>
             <FaGithubAlt size={30} id='socials'/></a>
