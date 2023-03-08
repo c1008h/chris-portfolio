@@ -128,7 +128,16 @@ footer {
   background-size: cover;
   padding:5% 0;
 }
-
+@media only screen and (max-width: 375px) and (max-height: 667px){
+  #navbar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #homepage {
+    width: 100%;
+    text-align: center;
+  }
+}
 @media only screen and (max-width: 650px) {
   #showAfter {
     position:relative;

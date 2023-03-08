@@ -59,6 +59,7 @@
 #socials:hover {
     color:var(--hoverclicks)
 }
+/* Iphone SE Screen */
 @media only screen and (max-width: 375px) and (max-height: 667px){
     #name-container {
         display: flex;
@@ -73,9 +74,8 @@
         font-size:50px;
         white-space: nowrap;
     }
-
-
 }
+
 .name {
     color: rgb(255, 255, 255);
     font-size: 100%;

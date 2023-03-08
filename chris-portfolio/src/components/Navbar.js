@@ -15,7 +15,7 @@ export default function Navbar () {
         >
             <Link 
             className='navbar-brand col-3 nav-link'
-            activeClass='active' to='homepage' spy={true}
+            activeClass='active' id='homepage' to='homepage' spy={true}
             smooth={true} offset={0} duration={500}>
                 Chris Hong
             </Link>
