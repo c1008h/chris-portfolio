@@ -4,14 +4,14 @@ import { experienceData } from '../constants/experienceData'
 import '../styles/experience.css'
 
 export default function Experience() {
-    const [activeNavItem, setActiveNavItem] = useState("Present");
+    const [activeNavItem, setActiveNavItem] = useState(new Date().getFullYear().toString());
     const currentYear = new Date().getFullYear().toString();
     const [expandedCards, setExpandedCards] = useState([]);
 
     const handleNavItemClicked = (year) => {
         if (year !== activeNavItem) {
             if (year === "Present") {
-              setActiveNavItem(new Date().getFullYear().toString());
+              setActiveNavItem(currentYear);
             } else {
               setActiveNavItem(year);
             }
@@ -25,6 +25,7 @@ export default function Experience() {
         } else if (item.yearRange) {
             const [startYear, endYear] = item.yearRange.split('-');
             const years = [startYear];
+
             for (let i = parseInt(startYear) + 1; i <= Math.min(parseInt(endYear), new Date().getFullYear()); i++) {
                 years.push(i.toString());
             }
@@ -73,7 +74,7 @@ export default function Experience() {
                     {activeNavItem && (
                         <div id='card-container'> 
                             {filteredData.map(filteredItem => (
-                            <Card id='experienceCard' key={filteredItem.yearRange}>
+                            <Card id='experienceCard' key={filteredItem.id}>
                                 <Card.Title style={{ marginBottom: '0.5rem' }}>{filteredItem.name}
                                     <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '0.5rem' }}>
                                         <p style={{color:'grey'}}>{filteredItem.institute}</p>
