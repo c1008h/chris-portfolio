@@ -46,13 +46,13 @@ export default function Experience() {
             return item.year === activeNavItem || (item.yearRange && item.yearRange.includes(activeNavItem));
         }
     });
-    const handleCardToggle = (cardIndex) => {
-        if (expandedCards.includes(cardIndex)) {
-            setExpandedCards(expandedCards.filter(index => index !== cardIndex));
-        } else {
-            setExpandedCards([...expandedCards, cardIndex]);
-        }
-    };
+    // const handleCardToggle = (cardIndex) => {
+    //     if (expandedCards.includes(cardIndex)) {
+    //         setExpandedCards(expandedCards.filter(index => index !== cardIndex));
+    //     } else {
+    //         setExpandedCards([...expandedCards, cardIndex]);
+    //     }
+    // };
 
     return (
         <section id='experience'>
