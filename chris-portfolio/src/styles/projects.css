@@ -4,3 +4,24 @@
     justify-content: center;
     border-radius: 15px;
 }
+
+#projectCards {
+    margin-bottom: 2%;
+    margin-top: 2%;
+    /* margin: 1% 0.5%; */
+    border-radius: 25px;
+} 
+
+#projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+}
+
+#cards {
+    padding: 5%;
+    border-radius: 25px;
+}
+
+
+ 

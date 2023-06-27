@@ -16,19 +16,12 @@ export default function CardProjects() {
   };
 
   return (
-    <div className="flex flex-wrap m-1 row">
+    // className="flex flex-wrap m-1 row"
+    <div id='projectContainer'>
 
       {ghprojects.map((item) => (
-        <Card className="col-lg-4 col-md-6 col-sm-12" style={{marginBottom:'5%', 
-        marginTop:'5%', borderRadius:'25px'}} key={item.id}> 
-        <div id ='cards'
-        style={{
-        //   marginBottom:'5%', 
-        //   marginTop:'5%', 
-          padding: '5%',
-          borderRadius:'25px',
-        //   filter:"drop-shadow(0px 20px 30px black"
-          }} key={item.id}>
+        <Card id='projectCards' className="col-lg-4 col-md-6 col-sm-12" key={item.id}> 
+        <div id='cards' key={item.id}>
           <h3 className="mb-3 col-12" style={{whiteSpace:'nowrap',}} key={item.title}>
             {item.title}
           </h3>

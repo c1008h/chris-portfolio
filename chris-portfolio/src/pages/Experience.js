@@ -71,18 +71,18 @@ export default function Experience() {
                     )) : null}
                 </div>
 
-                    {activeNavItem && (
-                        <div id='card-container'> 
-                            {filteredData.map(filteredItem => (
-                            <Card id='experienceCard' key={filteredItem.id}>
-                                <Card.Title style={{ marginBottom: '0.5rem', marginLeft:'1rem', marginTop:'0.5rem' }}>{filteredItem.name}
-                                    <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '0.5rem' }}>
-                                        <p style={{color:'grey'}}>{filteredItem.institute}</p>
-                                        <p style={{marginRight:'1rem'}}>{filteredItem.yearRange && filteredItem.yearRange.split('-').join(' - ')}</p>
-                                    </div>
-                                </Card.Title>
-                                <Card.Body style={{ marginTop: 0, paddingTop: 0, fontSize:'16px' }}>{filteredItem.description}</Card.Body>
-                            </Card>                           
+                {activeNavItem && (
+                    <div id='card-container'> 
+                        {filteredData.map(filteredItem => (
+                        <Card id='experienceCard' key={filteredItem.id}>
+                            <Card.Title style={{ marginBottom: '0.5rem', marginLeft:'1rem', marginTop:'0.5rem' }}>{filteredItem.name}
+                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '0.5rem' }}>
+                                    <p style={{color:'grey'}}>{filteredItem.institute}</p>
+                                    <p style={{marginRight:'1rem'}}>{filteredItem.yearRange && filteredItem.yearRange.split('-').join(' - ')}</p>
+                                </div>
+                            </Card.Title>
+                            <Card.Body style={{ marginTop: 0, paddingTop: 0, fontSize:'16px' }}>{filteredItem.description}</Card.Body>
+                        </Card>                           
                         ))}
                     </div>
                 )}
