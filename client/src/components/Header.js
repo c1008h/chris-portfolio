@@ -1,6 +1,6 @@
 import React from 'react';
 import {FaChevronDown, FaGithubAlt, FaLinkedin, FaEnvelope} from 'react-icons/fa'
-import { Button } from 'react-bootstrap'
+// import { Button } from 'react-bootstrap'
 import { Link } from 'react-scroll';
 import '../styles/header.css'
 
