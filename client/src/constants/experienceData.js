@@ -42,7 +42,7 @@ export const experienceData = [
     {
         id: 2,
         year:'2021',
-        yearRange: '2021-Present',
+        yearRange: '2021-2022',
         name: 'Courier',
         institute: 'DoorDash/UberEats',
         description: 'As a courier, I honed my time management, communication, and problem-solving skills. I maintained a 99% satisfaction rate by consulting with vendors and clients to understand their needs and expectations. I successfully completed all deliveries within the allotted time frame, efficiently adapting to changing situations such as traffic or weather. Through careful analysis of high traffic hours and efficient routes, I curated a plan to reach my daily goals. Additionally, I managed my finances as a business owner to maximize profit. This experience taught me the importance of attention to detail, reliability, and professionalism in all aspects of my work.'
