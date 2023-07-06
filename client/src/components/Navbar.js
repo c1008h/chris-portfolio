@@ -45,7 +45,7 @@ export default function Navbar () {
                 Contact
             </Link>
             <button id='resumeBtn'>
-                <a href='https://drive.google.com/file/d/1zH23MOrQsAYbVNPZ2Kvgh5Yc6sP8M-lw/view?usp=sharing' 
+                <a href='https://drive.google.com/file/d/1XbMgtUqrWV5rA4phXNIYLvIbiDA3QScf/view?usp=sharing' 
                 target='_blank'
                 rel='noreferrer'
                 id='resume'
