@@ -6,6 +6,7 @@ import '../styles/experience.css'
 export default function Experience() {
     const [activeNavItem, setActiveNavItem] = useState(new Date().getFullYear().toString());
     const currentYear = new Date().getFullYear().toString();
+  // eslint-disable-next-line no-unused-vars
 
     const [expandedCards, setExpandedCards] = useState([]);
 
