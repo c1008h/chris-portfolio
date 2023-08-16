@@ -16,6 +16,7 @@ export const ghprojects = [
         subtitle: "MongoDB, Express, React, Node.Js, GraphQL",
         description:
         "Pefi is a comprehensive personal finance management app that empowers users to plan, track, and achieve their financial goals. With intuitive interfaces, interactive charts, and powerful tools, Pefi helps users make informed decisions about their money.",
+        image: "../images/pefi-dash.png",
         github:'https://github.com/c1008h/Pefi',
         // link: "https://eyesackel.github.io/fork-the-food/",
         demo: '../demo/PeFi.gif'
