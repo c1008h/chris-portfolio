@@ -1,5 +1,13 @@
 export const experienceData = [
     {
+        id: 8,
+        year:'2023',
+        yearRange: '2023-Present',
+        name: 'STEAM/STEM Instructor',
+        institute: 'CodeRev Kids',
+        description:'In my role as a STEM/STEAM After School Instructor at CodeREV Kids, I had the privilege of equipping students with essential Programming Fundamentals and Video Game Development skills, leveraging tools like Pencil Code and Scratch. These experiences fostered their creativity and problem-solving abilities, providing them with a solid foundation in STEAM subjects. Additionally, I introduced hands-on learning through Arduino for Snap Circuits Engineering, allowing students to explore electronics and circuitry in a practical way. I also played a key role in enhancing students\' coding proficiency and problem-solving skills through expert debugging and guidance. This experience allowed me to develop valuable skills in problem-solving, Scratch, Arduino, debugging, programming, technical training, technical leadership, public speaking, and effective communication.' 
+    },
+    {
         id: 7,
         year:'2023',
         yearRange: '2023-Present',
