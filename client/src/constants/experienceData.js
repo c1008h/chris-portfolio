@@ -11,7 +11,7 @@ export const experienceData = [
         id: 7,
         year:'2023',
         yearRange: '2023-Present',
-        name: 'Learning Assistantt',
+        name: 'Learning Assistant',
         institute: 'edX',
         description:'As a Learning Assistant, I provided exceptional support to students by troubleshooting technical issues and answering questions related to various programming languages and concepts, including HTML, CSS, JavaScript, React, jQuery, Handlebars, Node, Express, SQL, NoSQL, MySQL, GraphQL, GitHub, REST API, and computer science fundamentals. Through my guidance and mentoring, I helped students develop their collaboration, communication, and problem-solving skills while adhering to professional practices and industry standards. In a fast-paced and immersive coding environment, I adapted my approach to meet student needs, maintaining an up-to-date understanding of the bootcamp curriculum and learning objectives. Additionally, I fostered a supportive and inclusive learning community in a virtual environment, utilizing my interpersonal skills and emotional intelligence to build trust and engagement.' 
     },
