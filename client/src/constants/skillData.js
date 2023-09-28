@@ -49,7 +49,11 @@ export const FE = [
     {
         name:'HTML',
         icon:'https://img.icons8.com/color/70/000000/html-5.png'
-    }
+    },
+    {
+        name:'TypeScript',
+        icon:'https://img.icons8.com/color/70/000000/typescript.png'
+    },
 ]
 
 export const DB = [
