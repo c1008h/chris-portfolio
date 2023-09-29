@@ -20,7 +20,7 @@ export default function About() {
               Welcome to my portfolio!  
               <br/>
               <br/>
-              My academic background in anthropology, the study of human behavior and society, has helped me develop a strong understanding of user needs and behavior, which I bring to my work in technology.
+              My academic background in anthropology has helped me develop a strong understanding of user needs and behavior, which I bring to my work in technology.
               During my undergraduate studies, I explored my interests in technology and informatics, which ultimately led me to enroll in a Fullstack Coding Bootcamp after graduation. 
               Since then, I've been constantly learning and expanding my skills in software engineering. 
               <br/>
