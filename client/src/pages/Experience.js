@@ -6,6 +6,7 @@ import '../styles/experience.css'
 export default function Experience() {
     const [activeNavItem, setActiveNavItem] = useState(new Date().getFullYear().toString());
     const currentYear = new Date().getFullYear().toString();
+    console.log("Current year:", currentYear)
   // eslint-disable-next-line no-unused-vars
     const [expandedCards, setExpandedCards] = useState([]);
 
@@ -39,7 +40,7 @@ export default function Experience() {
     .sort((a, b) => a === 'Present' ? 1 : b === 'Present' ? -1 : b - a);
 
     const filteredUniqueYears = [...new Set(uniqueYears)].sort((a, b) => a === 'Present' ? 1 : b === 'Present' ? -1 : b - a);
-    
+    console.log("Filtered years:", filteredUniqueYears)
     const filteredData = experienceData.filter(item => {
         if (activeNavItem === "Present") {
             return item.year === "Present" || (item.yearRange && item.yearRange.includes("Present"));

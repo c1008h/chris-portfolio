@@ -4,7 +4,8 @@
   "description": "<a href='https://thechrishong.com/'>The deployed link</a>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd client && npm run start"
   },
   "keywords": [],
   "author": "",
