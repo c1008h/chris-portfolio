@@ -1,15 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Header from './components/Header'
-import Footer from './components/Footer'
-import Navbar from './components/Navbar'
-import About from './pages/About'
-import Skills from './pages/Skills'
-import Experience from './pages/Experience'
-import Contact from './pages/Contact'
+import { Header, Footer, Navbar } from './components'
+import { Skills, Experience, Contact, About, Loading, Projects } from './pages'
 import { NavbarProvider } from "./utils/nav.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/index.css'
-import Projects from "./pages/Projects";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -24,9 +18,7 @@ export default function App() {
   return (
     <>
       {loading ? (
-        <div className="loader-wrapper">
-          <div className="loader"></div>
-        </div>
+        <Loading />
       ) : (
         <NavbarProvider>
           <Header/>
