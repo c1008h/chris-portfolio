@@ -1,8 +1,8 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import {  FaGithubAlt } from 'react-icons/fa'
 import { ghprojects } from "../../constants/data"
 import ProjectModal from './Modal.js'
-import {Card} from 'react-bootstrap'
+import { Card } from 'react-bootstrap'
 
 export default function CardProjects() {
   const [show, setShow] = useState({});
@@ -16,9 +16,7 @@ export default function CardProjects() {
   };
 
   return (
-    // className="flex flex-wrap m-1 row"
     <div id='projectContainer'>
-
       {ghprojects.map((item) => (
         <Card id='projectCards' className="col-lg-4 col-md-6 col-sm-12" key={item.id}> 
         <div id='cards' key={item.id}>
@@ -26,15 +24,15 @@ export default function CardProjects() {
             {item.title}
           </h3>
           <div className="flex relative" id='portfolioSquares'>
-              <a key={item.link} href={item.link} rel='noeferrer' target='__blank'>
-                <img 
-                  alt="gallery"
-                  className="col-10 m-4"
-                  key={item.image}
-                  src={item.image}
-                  style={{height:'250px', width:'85%', objectFit:'cover', opacity:'.85', borderRadius:"5px"}}
-                />
-              </a>
+            <a key={item.link} href={item.link} rel='noeferrer' target='__blank'>
+              <img 
+                alt="gallery"
+                className="col-10 m-4"
+                key={item.image}
+                src={item.image}
+                style={{height:'250px', width:'85%', objectFit:'cover', opacity:'.85', borderRadius:"5px"}}
+              />
+            </a>
           </div> 
           
           <div className='d-flex flex-row justify-content-center'>
@@ -48,9 +46,7 @@ export default function CardProjects() {
                 onClick={() => handleShow(item.id)}>
                   Description
               </button>
-              <ProjectModal handleClose={handleClose} item={item} show={show}
-              />
-              
+              <ProjectModal handleClose={handleClose} item={item} show={show}/>
             </div>
           </div>
         </div>

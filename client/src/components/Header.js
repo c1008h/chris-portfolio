@@ -43,7 +43,7 @@ export default function Header() {
         <div id='name-container' style={{display:'flex', flexDirection:'column', textAlign:'left'}}>
           <span id='greet'>Hi, my name is</span>
           <span id='name'>Chris Hong.</span>
-          <span id='title'>I'm a software developer with a background in anthropology and a passion for creating accessible, user-friendly technology. </span>
+          <span id='title'>Passionate Software Developer Dedicated to Creating Accessible, User-Friendly Technology</span>
           <div id='socialcontainer'>
             <a href='mailto:hongchris97@gmail.com?subject=Mail from Portfolio' target='__blank'>  
               <FaEnvelope size={30} id='socials' />
